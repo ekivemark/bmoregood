@@ -1,0 +1,46 @@
+/*
+base_page: Objective is a sticky header and footer
+based on:  https://gist.github.com/1918937
+
+*/
+
+$footerHeight: 60px;
+
+html, body, .container, .content {
+  height:100%;
+}
+
+.container, .content {
+  position: relative;
+  padding-left: 0px;
+}
+
+.proper-content {
+  padding-top: $footerHeight; /* >= navbar height */
+
+}
+
+.wrapper  {
+  //overflow:auto;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  padding-left: 0;
+  border-left: 0;
+  margin: 0 auto ($footerHeight * -1); /* same as the footer but a negative value */
+}
+
+.push {
+  height: $footerHeight; /* same as the footer */
+}
+
+.footer-wrapper {
+  border-left: 0px solid $grayDarker;
+  position: relative;
+  height: $footerHeight;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+  color: $white;
+  background-color: $grayDark;
+}

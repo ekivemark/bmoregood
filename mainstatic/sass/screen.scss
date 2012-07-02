@@ -4,3 +4,18 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass_twitter_bootstrap";
+@import "compass_twitter_bootstrap_responsive";
+/*
+  revise bootstrap design using snippets in partials
+*/
+@import "partials/_bootstrap-variables.scss";
+@import "partials/_bootstrap-navbar.scss";
+@import "partials/_base-page.scss";
+
+
+
+
+
+
+
