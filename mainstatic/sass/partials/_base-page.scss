@@ -37,7 +37,9 @@ html, body, .container, .content {
 .footer-wrapper {
   border-left: 0px solid $grayDarker;
   position: relative;
+  // position: fixed;
   height: $footerHeight;
+  overflow: hidden;
   width: 100%;
   margin-left: 0;
   padding-left: 0;

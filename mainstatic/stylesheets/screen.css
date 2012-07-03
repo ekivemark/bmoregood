@@ -6614,6 +6614,7 @@ html, body, .container, .content {
   border-left: 0px solid #222222;
   position: relative;
   height: 60px;
+  overflow: hidden;
   width: 100%;
   margin-left: 0;
   padding-left: 0;
