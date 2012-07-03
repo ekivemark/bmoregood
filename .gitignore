@@ -1,6 +1,6 @@
 *.pyc
 db/db.db
-mainstatic/.sass-cache
+mainstatic/.sass-cache/
 *.py[co]
 
 # Packages
